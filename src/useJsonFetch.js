@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 
 const useJsonFetch = (url, opts = null) => {
     const [data, setData] = useState([]);
