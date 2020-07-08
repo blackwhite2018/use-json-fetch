@@ -30,7 +30,7 @@ const useJsonFetch = (url, opts = null) => {
     	fetchData();
     }, [url, opts]);
   
-    return [{ data, isLoading, hasError }];
+    return [data, isLoading, hasError];
 }
 
 export default useJsonFetch;
